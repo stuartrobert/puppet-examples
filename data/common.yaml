@@ -1,7 +1,7 @@
 ---
 
 classes:
-  - role::base
+  - role::basic
 
 profile::puppet_agent::pkg_version: '5.5.14'
 profile::puppet_agent::collection_version: '5'
