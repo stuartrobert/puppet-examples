@@ -1,0 +1,19 @@
+---
+# Store all cache information in /var/cache
+cachedir: '/var/cache/r10k'
+
+#forge:
+#  proxy: 'http://myproxy:3128'
+
+#git:
+#  provider: 'shellgit'
+#  username: 'scm'
+#  private_key: "/opt/puppetlabs/server/data/puppetserver/.ssh/id_rsa"
+#  repositories:
+#    - remote: 'ssh://scm@vcserver.mydomain/git/puppet-control.git'
+
+sources:
+  keepcontrol:
+    remote:  'file:///path/to/puppet-contorl-repo.git'
+    basedir: '/etc/puppetlabs/code/environments'
+
